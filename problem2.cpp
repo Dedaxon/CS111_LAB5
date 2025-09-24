@@ -1,7 +1,7 @@
 
 bool IntLinkedList::removeBack() {
     if(empty()) return false;
-    if(head->next == nullptr) {  // only one node
+    if(head->next == nullptr) {  
         delete head;
         head = nullptr;
         return true;
